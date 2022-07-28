@@ -15,22 +15,25 @@ class MyHeader extends HTMLElement {
                             <a class="nav-link text-light" href="index.html">Inicio</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="padecimientos.html">Padecimientos Registrados</a>
+                            <a class="nav-link text-light" href="padecimientos.html">Padecimientos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="tratamientos.html">Tratamientos Asignados</a>
+                            <a class="nav-link text-light" href="tratamientos.html">Tratamientos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="medicamentos.html">Medicamentos Recetados</a>
+                            <a class="nav-link text-light" href="medicamentos.html">Medicamentos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="expediente.html">Expediente Médico</a>
+                            <a class="nav-link text-light" href="examenes.html">Resultado de Exámenes</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-light" href="historial.html">Historial Médico</a>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Ajustes</a>
-                            <div class="dropdown-menu ml-2">
-                                <a class="nav-link text-dark" href="">Cuenta</a>
-                                <a class="nav-link text-dark" href="">Salir</a>
+                            <div class="dropdown-menu px-3">
+                                <a class="nav-link text-dark" href="#">Cuenta</a>
+                                <a class="nav-link text-dark" href="index.html">Salir</a>
                             </div>
                         </li>
                     </ul>
@@ -45,7 +48,8 @@ customElements.define('my-header', MyHeader);
 /* FOOTER */
 class MyFooter extends HTMLElement {
     connectedCallback() {
-        this.innerHTML = `<footer class="border-top footer text-muted" style="bottom: 0px; top: 95%; position:fixed;">
+        this.innerHTML = `<footer class="border-top footer text-muted" style="bottom: 0px; top: 92%; position:fixed; 
+        margin-top: 2rem; width: 100%;">
         <div class="container p-2">
             &copy; Registro Médico 2022
         </div>
