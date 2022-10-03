@@ -1,8 +1,12 @@
 # RegistroClinico_ProyectoMovil2022
- 
-### _* Incomplete version * 2022_
+A Simple and quick prototype of a user experience clinic record
 
 ### Build With: 
-- C#
-- ASP.NET MVC
-- SQL Server
+- HTML
+- CSS
+- JavaScript
+
+### Developers:
+- Kevin Alvarado
+
+_Developed in 2022_
